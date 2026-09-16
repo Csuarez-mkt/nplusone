@@ -1,5 +1,7 @@
 # nplusone
 
+[![test](https://github.com/Csuarez-mkt/nplusone/actions/workflows/test.yml/badge.svg)](https://github.com/Csuarez-mkt/nplusone/actions/workflows/test.yml)
+
 Encuentra el N+1 en un log de SQL: la consulta que en vez de correr una vez
 corrio una por cada fila de una lista.
 
@@ -12,6 +14,10 @@ porque no rompe nada. Solo se pone lento.
 java -jar nplusone.jar app.log
 mvn test | java -jar nplusone.jar
 ```
+
+El jar sale en
+[releases](https://github.com/Csuarez-mkt/nplusone/releases) y solo necesita
+Java 21. No trae dependencias, asi que no hay nada mas que instalar.
 
 ## Que ve
 
