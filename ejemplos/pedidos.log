@@ -1,0 +1,25 @@
+2026-09-16 09:14:02.001  INFO 9120 --- [omcat-handler-1] c.a.p.OrderController    : GET /api/orders?desde=2026-09-01
+2026-09-16 09:14:02.014 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select o1_0.id,o1_0.customer_id,o1_0.total,o1_0.created_at from orders o1_0 where o1_0.created_at>?
+2026-09-16 09:14:02.023 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=1
+2026-09-16 09:14:02.026 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=2
+2026-09-16 09:14:02.029 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=3
+2026-09-16 09:14:02.032 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=4
+2026-09-16 09:14:02.035 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=5
+2026-09-16 09:14:02.038 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=6
+2026-09-16 09:14:02.041 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=7
+2026-09-16 09:14:02.044 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=8
+2026-09-16 09:14:02.047 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=9
+2026-09-16 09:14:02.050 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=10
+2026-09-16 09:14:02.053 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=11
+2026-09-16 09:14:02.056 DEBUG 9120 --- [omcat-handler-1] org.hibernate.SQL        : select c1_0.id,c1_0.name,c1_0.email from customers c1_0 where c1_0.id=12
+2026-09-16 09:14:02.070  INFO 9120 --- [omcat-handler-1] c.a.p.OrderController    : 12 pedidos servidos en 58 ms
+2026-09-16 09:14:05.100  INFO 9120 --- [omcat-handler-2] c.a.p.TagService         : POST /api/orders/44/tags
+2026-09-16 09:14:05.104 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-1')
+2026-09-16 09:14:05.108 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-2')
+2026-09-16 09:14:05.112 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-3')
+2026-09-16 09:14:05.116 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-4')
+2026-09-16 09:14:05.120 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-5')
+2026-09-16 09:14:05.124 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-6')
+2026-09-16 09:14:05.128 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-7')
+2026-09-16 09:14:05.132 DEBUG 9120 --- [omcat-handler-2] org.hibernate.SQL        : insert into order_tags (order_id,tag) values (44,'etiqueta-8')
+2026-09-16 09:14:05.140  INFO 9120 --- [omcat-handler-2] c.a.p.TagService         : listo
